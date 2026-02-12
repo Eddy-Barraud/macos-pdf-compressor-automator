@@ -78,8 +78,9 @@ esac
 # ==================================================
 # 3. SAVE-AS DIALOG
 # ==================================================
+input_dir=$(dirname "$input")
 output=$(osascript <<EOF
-set outFile to choose file name with prompt "Save compressed PDF as:" default name "$suggested_name"
+set outFile to choose file name with prompt "Save compressed PDF as:" default name "$suggested_name" default location POSIX file "$input_dir"
 POSIX path of outFile
 EOF
 )
