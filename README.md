@@ -11,6 +11,17 @@ Right Click the PDF file, Select the option, choose a quality level (DPI), pick 
 
 ---
 
+# Easy install:
+
+```sh
+brew install ghostscript
+open https://www.icloud.com/shortcuts/29e4636423534f8b8cc8cc11b0e9cf07
+```
+Download the following shortcut, and a magic button will appear on your Finder shortcut menu whenever you right-click a PDF or select and show it in the preview pane.
+[https://www.icloud.com/shortcuts/29e4636423534f8b8cc8cc11b0e9cf07](https://www.icloud.com/shortcuts/29e4636423534f8b8cc8cc11b0e9cf07)
+
+---
+
 ## Features
 
 - 🖱️ **Ready to Compress** – Just right click the file and select the option
